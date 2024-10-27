@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: hsl(174, 32%, 82%);
+    padding: 10px;
+}
+
+header {
+    background-image: url(./images/lone-starfish-wide.jpg);
+    background-image: inherit;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    text-align: inherit;
+    max-width: fit-content;
+    background-position: inherit;
+    color: white;
+}
+
+footer {
+    text-align: right;
+}
+
+#story img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#contact {
+    border: solid 1px;
+    padding: 1rem;
+}
+
+#sections {
+    text-transform: uppercase;
+}
