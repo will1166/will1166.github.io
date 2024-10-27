@@ -1,6 +1,5 @@
 body {
     background-color: #aad4cf;
-    padding: 10rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,14 +8,24 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
-    text-align:
 }
 
 #home{
     color: white;
 }
 
-.container {
+div .container {
     font-size: 2rem;
     list-style-type: square;
+    text-transform: uppercase;
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+}
+
+
+h3 {
+    font-weight: normal;
 }
