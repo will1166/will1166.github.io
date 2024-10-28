@@ -30,7 +30,7 @@ footer {
     max-height: 300px;
 }
 
-#contact {
+#contact section form {
     border: solid 1px;
     padding: 1rem;
 }
