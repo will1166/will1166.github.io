@@ -14,6 +14,8 @@ nav li {
     display: inline;
     font-size: 30px;
     text-transform: uppercase;
+    box-sizing: border-box;
+    max-inline-size: 14px;
 }
 
 .content {
@@ -41,19 +43,21 @@ footer {
     text-align: right;
 }
 
-.description img {
+.description section img {
     float: left;
     max-width: 300px;
     max-height: 300px;
 }
 
-.description p {
+.description section p {
     text-align: justify;
+    box-sizing: border-box;
+    margin-left: 15px;
 }
 
 #contact section form {
     border: solid 1px;
-    padding: 1em;
+    padding: 15px;
 }
 
 #section {
