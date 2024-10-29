@@ -1,0 +1,50 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* every single box we need these specs */
+/* outline doesn't take space as a border */
+
+/*
+Set Width and Border
+*/
+.container{
+    width: 400px;
+    border: 6px solid #111;
+    margin: 0 auto;
+  }
+  
+  /*
+  Add some space between the border;
+  */
+  figure{
+    margin: 10px;
+  }
+  
+  /*
+  Give the caption a distinct style.
+  */
+  figcaption, a{
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    background:#111;
+    color: #fff;
+  }
+  
+  /* 
+  Responsive Image
+  The image will scale with the size of it's container
+  */
+  figure img{
+    width:100%;
+    height: auto;
+    display: block;
+  }
+  
