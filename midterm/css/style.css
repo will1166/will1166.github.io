@@ -10,17 +10,20 @@ html {
     box-sizing: inherit;
   }
 
-nav li {
+nav ul li {
     display: inline;
     font-size: 30px;
     text-transform: uppercase;
     box-sizing: border-box;
-    max-inline-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .content {
     max-width: 1000px;
-    margin: auto;
     background: hsl(174, 32%, 82%);
     font-size: 1em;
 }
@@ -35,7 +38,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     height: 375px;
-    max-width:inherit;
+    width: inherit;
     color: white;
 }
 
@@ -58,7 +61,7 @@ footer {
 
 #contact section form {
     border: solid 1px;
-    padding: 15px;
+    padding: 1em;
 }
 
 #section {
