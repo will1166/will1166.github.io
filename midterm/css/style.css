@@ -11,11 +11,17 @@ html {
     font-size: 1em;
 }
 
+div {
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+
 header {
     background-image: url(./images/lone-starfish-wide.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 375px;
+    max-width:inherit;
     color: white;
 }
 
