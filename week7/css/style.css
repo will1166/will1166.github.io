@@ -27,21 +27,21 @@ Set Width and Border
     border: 6px solid #111;
     margin: 0 auto;
   }
-  .container::before{
+  /* .container::before{
     content: "I am using before class"
-  }
+  } */
   
   /*
   Add some space between the border;
   */
-  figure{
+figure{
     margin: 10px;
   }
   
   /*
   Give the caption a distinct style.
   */
-  figcaption, a{
+figcaption, a{
     font-family: arial, helvetica, sans-serif;
     padding: 10px;
     font-weight: bold;
@@ -53,9 +53,57 @@ Set Width and Border
   Responsive Image
   The image will scale with the size of it's container
   */
-  figure img{
+figure img{
     width:100%;
     height: auto;
     display: block;
   }
   
+.testfloat {
+    width: 500px;
+    margin: 0 auto;
+    border: solid 5px black;
+  }
+img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.box {
+  width: 25%;
+  height: 100px;
+}
+
+.box1 {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+.clearfix:after {
+  content: "I am Groot.";
+  display: table;
+  clear: both;
+}
+
+.purple{
+  background: purple;
+}
+.blue{
+  background: blue;
+}
+.green{
+  background: green;
+}
+.orange{
+  background: orange;
+}
