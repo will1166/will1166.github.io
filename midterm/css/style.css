@@ -12,12 +12,9 @@ body{
 
 header {
     background-image: url(./images/lone-starfish-wide.jpg);
-    background-image: inherit;
-    background-size: 1000px;
+    background-size: contain;
     background-repeat: no-repeat;
-    text-align: inherit;
-    max-width: fit-content;
-    background-position: inherit;
+    height: 350px;
     color: white;
 }
 
@@ -32,7 +29,7 @@ footer {
 
 #contact section form {
     border: solid 1px;
-    padding: 1rem;
+    padding: 16px;
 }
 
 #sections {
