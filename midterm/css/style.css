@@ -2,6 +2,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     font-size: 15px;
+    box-sizing: border-box;
 }
 
 .content {
