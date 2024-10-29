@@ -1,12 +1,14 @@
-body{
+html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
+    font-size: 15px;
 }
 
 .content {
     max-width: 1000px;
     margin: auto;
     background: hsl(174, 32%, 82%);
+    font-size: 1em;
 }
 
 header {
@@ -33,7 +35,7 @@ footer {
 
 #contact section form {
     border: solid 1px;
-    padding: 16px;
+    padding: 1em;
 }
 
 #section {
