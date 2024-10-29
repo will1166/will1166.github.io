@@ -1,3 +1,12 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
 .box {
     width: 100px;
     height: 100px;
@@ -18,6 +27,9 @@ Set Width and Border
     width: 400px;
     border: 6px solid #111;
     margin: 0 auto;
+  }
+  .container::before{
+    content: "I am using before class"
   }
   
   /*
