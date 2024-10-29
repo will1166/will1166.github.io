@@ -43,13 +43,14 @@ footer {
     text-align: right;
 }
 
-.description section img {
+.description img {
     float: left;
     max-width: 300px;
     max-height: 300px;
+    padding-right: 10px;
 }
 
-.description section p {
+.description p {
     text-align: justify;
     box-sizing: border-box;
     margin-left: 15px;
