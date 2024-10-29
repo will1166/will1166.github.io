@@ -47,7 +47,7 @@ footer {
     float: left;
     max-width: 300px;
     max-height: 300px;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .description p {
