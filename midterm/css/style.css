@@ -11,19 +11,23 @@ html {
   }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     font-size: 30px;
     text-transform: uppercase;
-    box-sizing: border-box;
+    font-size: 30px;
+    padding: 0 0 0 100px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    display: flexbox;
 }
+
 
 .content {
     max-width: 1000px;
+    width: 100%;
     background: hsl(174, 32%, 82%);
     font-size: 1em;
 }
@@ -35,10 +39,10 @@ div {
 
 header {
     background-image: url(./images/lone-starfish-wide.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 375px;
-    width: inherit;
+    height: 350px;
     color: white;
 }
 
