@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Starfish</title>
+    <!-- link the html to the css folder -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+   <!-- main content of the starfish page -->
     <main>
+        <!-- div to make sure the css can target each -->
         <div class="content">
             <header id="home">
                 <h1>Lone Starfish</h1>
-        </header>
+            </header>
         <div class="components">
             <nav> 
                 <ul>
                     <li><a href="#home">Home</a></li> 
-                    <div class="vl"></div>
+                    <li class="vl"></li>
                     <li><a href="#story">Story</a></li>
-                    <div class="vl"></div>
+                    <li class="vl"></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        <!-- add article because it has to do with the content -->
         <article>
             <div id="story">
                 <h2>Life of a Starfish</h2>
@@ -32,20 +36,23 @@
                 <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p><br><br><br>
             </div>
         </article>
-        <div id="facts">
-            <article>
-                <h3>Facts About Starfish</h3>
-                <ul>
-                    <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-                    <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-                </ul>
-            </article>
-        </div>
+        <article>
+            <div id="facts">
+                    <h3>Facts About Starfish</h3>
+                    <!-- add an undordered list -->
+                    <ul>
+                        <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+                        <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+                        <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+                        <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+                    </ul>
+            </div>
+        </article>
         <div id="contact">
             <section>
+                <!-- add section because it has to do with the starfish, but the user can go directly to it  -->
                 <h3>Contact to learn more</h3>
+                <!-- create a form with each requirement -->
                 <form>
                     <label for="fullname">Your Name</label><br>
                     <input type="text" id="fullname" name="fullname" required><br>
@@ -54,6 +61,7 @@
                     <label for="message">Your Message</label><br>
                     <textarea id="message" name="message" required></textarea>
                 <h3>Would you like to visit the starfish?</h3>
+                <!-- create a form with radio button options -->
                     <label for="visityes">Yes</label>
                     <input type="radio" id="visityes" name="visit">
                     <label for="visitno">No</label>
@@ -65,7 +73,8 @@
             </section>
         </div>
         <footer>
-            <p><em>&copy; Lone Starfish</em></p>
+            <!-- add copyright information -->
+            <p>&copy; Lone Starfish</p>
         </footer>
         </div>
     </main>
