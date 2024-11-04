@@ -24,6 +24,12 @@ nav ul li {
     padding: 0 0 0 100px;
 }
 
+.components {
+    position: relative;
+    height: 55px;
+    left: 10%;
+}
+
 a {
     text-decoration: none;
     color: black;
