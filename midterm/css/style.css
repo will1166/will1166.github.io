@@ -1,16 +1,19 @@
 html {
+    /* establish font family, background color */
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     font-size: 15px;
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+    box-sizing: ;
 }
 
+*, *:before, *:after {
+    /* make all the elements inherit border-box from html */
+    box-sizing: inherit;
+  }
+  
+
 header h1 {
+    /* make the h1 text bigger and position it below the startfish */
     font-size: 3rem;
     padding-top: 200px;
     border-radius: 5px;
@@ -18,36 +21,42 @@ header h1 {
 }
 
 nav ul li {
+    /* make the text on the navigation in a row, bigger and in capital letters */
     display: inline-block;
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 0 0 0 100px;
-    text-align: left;
+    padding: 0 20px 0 50px;
+
+    text-align: center;
 }
 
 .vl {
-    position: relative;
+    /* add vertical lines to  the navigation */
     display: inline;
     border-right: 2px solid black;
 }
 
 .components {
+    /* correct the position of the navigation bar */
     position: relative;
     height: 55px;
     left: 10%;
 }
 
 a {
+    /*  make the hyperlink black */
     text-decoration: none;
     color: black;
     display: flexbox;
 }
 
 a:hover, a:focus {
+    /* add hover to the links */
     background-color: #aad4cf;
 }
 
 .content {
+    /* make sure all the page content fits inside the bright color */
     max-width: 1000px;
     width: 100%;
     background: hsl(174, 32%, 82%);
@@ -61,6 +70,7 @@ div {
 }
 
 header {
+    /* add image and make sure it fits the content and the text inside it is colored white */
     background-image: url(./images/lone-starfish-wide.jpg);
     background-size: cover;
     background-position: center;
@@ -70,10 +80,12 @@ header {
 }
 
 footer {
+    /* align copyright informatin to the right of the footer */
     text-align: right;
 }
 
 .description img {
+    /* make sure the image is floating next to the text */
     float: left;
     max-width: 300px;
     max-height: 300px;
@@ -81,31 +93,39 @@ footer {
 }
 
 .description p {
+    /* make the text stay on the right of the image */
     text-align: justify;
     box-sizing: border-box;
     margin-left: 15px;
 }
 
 #facts ul li {
-    font-size: 0.9rem;
     /* make sure that it's a bit smaller than the rest of the page */
+    font-size: 0.9rem;
 }
 
 #contact section form {
+    /* put the contact form inside a box with border */
     border: solid 1px;
     padding: 1.5rem;
-    box-sizing: border-box;
 }
 
-input[type="text"], 
-input[type="email"], 
-textarea {
+input[type="text"], input[type="email"], textarea {
+    /* make the text boxes bigger in the contact form */
     width: 100%;
     box-sizing: border-box;
     padding: 10px;        
 }
 
 textarea {
+    /* extra space for the message space on the contact form */
     height: 150px;
     resize: vertical;
+}
+
+button {
+    /* add background color and make the button bigger */
+    background-color: #aad4cf;
+    height: 30px;
+    width: 70px;
 }
