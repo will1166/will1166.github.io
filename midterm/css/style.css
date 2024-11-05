@@ -3,13 +3,13 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     font-size: 15px;
-    box-sizing: ;
+    box-sizing: border-box;
 }
 
 *, *:before, *:after {
     /* make all the elements inherit border-box from html */
     box-sizing: inherit;
-  }
+}
   
 
 header h1 {
@@ -26,8 +26,8 @@ nav ul li {
     font-size: 2rem;
     text-transform: uppercase;
     padding: 0 20px 0 50px;
-
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .vl {
@@ -47,7 +47,7 @@ a {
     /*  make the hyperlink black */
     text-decoration: none;
     color: black;
-    display: flexbox;
+    display: flex;
 }
 
 a:hover, a:focus {
@@ -88,7 +88,6 @@ footer {
     /* make sure the image is floating next to the text */
     float: left;
     max-width: 300px;
-    max-height: 300px;
     margin-right: 10px;
 }
 
