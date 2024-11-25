@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        <!-- Create list for the website nav -->
         <nav>
             <ul>
                 <img src="./css/images/logo.png" alt="Three Star Media logo">
@@ -17,18 +18,24 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <!-- Div for specific layout for the search bar -->
         <div class="searchbar">
             <input type="text" placeholder="Search" name="search">
         </div>
     </header>
     <main>
+        <!-- First section with the biggest heading -->
         <section id="home">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi at laboriosam nulla vitae! Illum quasi maiores fugiat libero ullam unde et deserunt vel consequatur, cumque velit hic blanditiis nulla!</p>
-            <p>Connect with us</p>
+            <!-- Create div to develop layout for the button on CSS -->
+            <div class="buttonsechome">
+                <p>Connect with us</p>
+            </div>
         </section>
         <section id="aboutUs">
             <img src="./css/images/about-us.jpg" alt="Three Star Media Office">
+            <!-- Second section with smaller heading -->
             <h2>About Us</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias totam quibusdam illum nesciunt rerum consequatur cumque quae quia inventore perspiciatis excepturi minus, aperiam explicabo magnam dolores, iure libero optio adipisci.</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum itaque ea suscipit dicta ipsam quam illo sunt eaque ducimus ex aliquid obcaecati nisi nulla aut mollitia, provident modi cupiditate quaerat?</p>
@@ -36,30 +43,45 @@
         <section id="services">
             <h2>Our Services</h2>
             <img src="./css/images/digital.jpg" alt="Digital Transformation service">
+            <!-- Smaller headings detailing each service -->
             <h3>Digital Transformation</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet commodi a in quo, perspiciatis, optio iusto consequatur et eos ipsam iure quaerat culpa maxime eligendi dignissimos velit ab beatae! Laborum!</p>
-            <p>Digital Plans</p>
+            <!-- Create div class for the buttons for services -->
+            <div class="buttonsecservices">
+                <p>Digital Plans</p>
+            </div>
             <img src="./css/images/marketing.jpg" alt="Marketing service">
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque voluptatibus asperiores error, deleniti quidem nihil optio atque iusto cumque qui esse veniam. Corporis est ex accusantium dolore quaerat officiis tempora?</p>
-            <p>Marketing Plans</p>
+            <div class="buttonsecservices">
+                <p>Marketing Plans</p>
+            </div>
             <img src="./css/images/video.jpg" alt="Video Production service">
             <h3>Video Production</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit voluptatibus, quod illum veritatis obcaecati placeat! Alias laboriosam unde nesciunt eaque distinctio a illum hic blanditiis, molestiae, necessitatibus, magni ratione!</p>
-            <p>Video Plans</p>
+            <div class="buttonsecservices">
+                <p>Video Plans</p>
+            </div>
             <img src="./css/images/web.jpg" alt="Video Production service">
             <h3>Web Development</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo fuga, inventore voluptas reiciendis corporis earum mollitia incidunt distinctio et, alias omnis officiis voluptatum sunt ea at quis, accusamus dicta recusandae.</p>
-            <p>Web Plans</p>
+            <div class="buttonsecservices">
+                <p>Web Plans</p>
+            </div>
             <img src="./css/images/print.jpg" alt="Print service">
             <h3>Print</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit et tempora repellat perferendis. Consequuntur eveniet veritatis aut, suscipit, dolorum quasi quam quibusdam minus enim quidem consequatur rem illo quas deleniti!</p>
-            <p>Print Plans</p>
+            <div class="buttonsecservices">
+                <p>Print Plans</p>
+            </div>
         </section>
         <section>
             <h3>Our Vision</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dolores quo eum, nam consequuntur veniam est asperiores repudiandae cum aliquam quasi, enim impedit ipsum et reiciendis vitae. Quisquam, architecto illum?</p>
-            <p>Learn More</p>
+            <!-- Create div for Vision button -->
+            <div class="buttonsecvision">
+                <p>Learn More</p>
+            </div>
         </section>
         <section id="team">
             <h2>Our Team</h2>
@@ -82,7 +104,9 @@
                 <input type="email" id="email" name="email" required><br>
                 <label for="message">Message</label><br>
                 <textarea id="message" name="message" required></textarea>
-                <p>Send</p>
+                <div class="buttonsend">
+                    <p>Send</p>
+                </div>
             </form>
             <h3>Hours of operation</h3>
             <table>
@@ -104,7 +128,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; Copyright Three Star Media, 2020</p>
+        <p>&copy; Copyright Three Star Media, 2024</p>
         <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 </body>
