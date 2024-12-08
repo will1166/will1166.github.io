@@ -134,6 +134,7 @@ h4 {
 }
 .boxDigitalTransformation button {
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .boxMarketing{
@@ -146,6 +147,7 @@ h4 {
 }
 .boxMarketing button {
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .boxVideoProd{
@@ -158,6 +160,7 @@ h4 {
 }
 .boxVideoProd button {
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .boxWebDev{
@@ -170,6 +173,7 @@ h4 {
 }
 .boxWebDev button {
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .boxPrint{
@@ -182,6 +186,7 @@ h4 {
 }
 .boxPrint button {
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .buttonsecservices {
@@ -220,4 +225,5 @@ h4 {
     color: white;
     border: #c78c06 2px solid;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
