@@ -82,7 +82,7 @@ li{
 }
 #home h1{
     font-size: 3.375em;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -95,4 +95,16 @@ li{
     height: 100px;
     width: 250px;
     font-size: 1.476em;
+}
+h2{
+    font-size: 2.25em;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1em;
+    font-weight: bold;
 }
