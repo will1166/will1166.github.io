@@ -107,6 +107,23 @@ h4 {
     font-size: 1em;
     font-weight: bold;
 }
+
+#about{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#about h2, #about p{
+    padding: 10px 0 10px 10px;
+}
+#about p{
+    padding-bottom: 0;
+}
+
+#services h2{
+    padding: 50px 0 15px 25px;
+}
 .boxDigitalTransformation{
     display: flex;
     flex-direction: column;
@@ -116,6 +133,54 @@ h4 {
     margin: 15px 0 0 15px;
 }
 .boxDigitalTransformation button {
+    margin-left: 15px;
+}
+
+.boxMarketing{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.boxMarketing h3, .boxMarketing p{
+    margin: 15px 0 0 15px;
+}
+.boxMarketing button {
+    margin-left: 15px;
+}
+
+.boxVideoProd{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.boxVideoProd h3, .boxVideoProd p{
+    margin: 15px 0 0 15px;
+}
+.boxVideoProd button {
+    margin-left: 15px;
+}
+
+.boxWebDev{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.boxWebDev h3, .boxWebDev p{
+    margin: 15px 0 0 15px;
+}
+.boxWebDev button {
+    margin-left: 15px;
+}
+
+.boxPrint{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.boxPrint h3, .boxPrint p{
+    margin: 15px 0 0 15px;
+}
+.boxPrint button {
     margin-left: 15px;
 }
 
