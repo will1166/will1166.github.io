@@ -15,6 +15,24 @@ body{
     background-color: #c78c06;
     height: 200px;
 }
+.container ul{
+    padding-top: 160px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.otherList{
+    background-color: #222;
+}
+.otherList li a{
+    color: #c78c06;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
 li{
     list-style: none;
@@ -22,15 +40,27 @@ li{
 }
 
 .container li{
-
+    text-decoration: none;
 }
+
 
 .searchBar{
     text-align: center;
+    padding-bottom: 10px;
 }
 .searchBar label{
     position: absolute;
     top: -500px;
+}
+.searchBar input{
+    width: 500px;
+    height: 25px;
+}
+.searchBar button{
+    height: 30px;
+    color: #c78c06;
+    background-color: #222;
+    border: #c78c06 solid 2px;
 }
 
 #home{
