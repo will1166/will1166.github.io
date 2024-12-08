@@ -1,7 +1,8 @@
 html {
     width: 1200px;
-    border: 10px;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 body{
@@ -32,12 +33,36 @@ li{
     top: -500px;
 }
 
-h1{
-    font-size: 2.822em;
-}
-
 #home{
     background-image: url("/final-project/images/main-banner.jpg");
-    height: 1000px;
-    background-size: contain;
+    height: 100vh;
+    background-size: cover;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home h1, #home p, #home .buttonsechome{
+    box-sizing: content-box;
+    max-width: auto;
+    background: rgb(34, 34, 34, 0.8);
+    padding: 10px;
+}
+#home h1{
+    font-size: 3.375em;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+#home p{
+    color: white;
+}
+#home .buttonsechome button {
+    background-color: #c78c06;
+    height: 100px;
+    width: 250px;
+    font-size: 1.476em;
 }
