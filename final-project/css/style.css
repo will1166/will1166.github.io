@@ -107,6 +107,18 @@ h4 {
     font-size: 1em;
     font-weight: bold;
 }
+.boxDigitalTransformation{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.boxDigitalTransformation h3, .boxDigitalTransformation p{
+    margin: 15px 0 0 15px;
+}
+.boxDigitalTransformation button {
+    margin-left: 15px;
+}
+
 .buttonsecservices {
     background-color: #222;
     color: white;
