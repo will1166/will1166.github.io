@@ -32,3 +32,12 @@ li{
     top: -500px;
 }
 
+h1{
+    font-size: 2.822em;
+}
+
+#home{
+    background-image: url("/final-project/images/main-banner.jpg");
+    height: 1000px;
+    background-size: contain;
+}
