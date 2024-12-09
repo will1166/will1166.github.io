@@ -80,7 +80,7 @@ li{
     flex-direction: column;
     justify-content: center;
 }
-#home h1, #home p, #home .buttonsechome{
+#home h1, #home p, #home .buttonSechome{
     background: rgb(34, 34, 34, 0.8);
     padding: 10px;
 }
@@ -94,7 +94,7 @@ li{
 #home p{
     color: white;
 }
-#home .buttonsechome button {
+#home .buttonSecHome button {
     background-color: #c78c06;
     height: 100px;
     width: 250px;
@@ -303,8 +303,9 @@ h4 {
     margin: 15px 0 0 15px;
 }
 .aboutBob h4{
+    box-sizing: border-box;
     padding-bottom: 5px;
-    border-bottom: orange 2px solid;
+    border-bottom: #c78c06 2px solid;
 }
 .aboutBob p{
     margin-top: 0;
