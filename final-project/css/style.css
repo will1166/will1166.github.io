@@ -81,7 +81,6 @@ li{
     justify-content: center;
 }
 #home h1, #home p, #home .buttonsechome{
-    max-width: auto;
     background: rgb(34, 34, 34, 0.8);
     padding: 10px;
 }
@@ -329,6 +328,9 @@ form{
     background-color: #222;
     color: #c78c06;
     margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    font-size: 1.5em;
 }
 
 .hoursOperation table{
