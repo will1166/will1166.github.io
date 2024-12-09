@@ -222,6 +222,14 @@ h4 {
     font-size: 1.5em;
 }
 
+.buttonSecMarketing{
+    background-color: #222;
+    color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 1.4em;
+}
+
 .vision {
     background-image: url(/final-project/images/vision.jpg);
     background-size: cover;
