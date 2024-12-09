@@ -371,10 +371,22 @@ footer{
     color: #c78c06;
     height: 80px;
     width: inherit;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 40px;
 }
 
-.unsplashLink a:link, .unsplashLink a:visited, .unsplashLink a:hover, .unsplashLink a:active{
+.copyrightInfo, .unsplashLink{
+    padding-bottom: 20px;
+}
+
+.unsplashLink a:link, 
+.unsplashLink a:visited, 
+.unsplashLink a:hover, 
+.unsplashLink a:active{
     color: #c78c06;
     text-decoration: underline;
 }
