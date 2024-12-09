@@ -329,28 +329,26 @@ form{
     width: 95%;
     margin: 0 auto;
 }
-.tablehours{
+.tableTitles{
     background-color: wheat;
     height: 30px;
-    border: solid #222 1px;
-    text-align: center; 
 }
-tbody {
-    height: 30px;
+.tableTitleDays{
     border: solid #222 1px;
+    padding-top: 20px;
+    height: 40px;
 }
-.tableTitlehours{
-    border-left: solid #222 1px;
+.tableTitleHours{
+    border: solid #222 1px;
 }
 .tableDays{
-    border-top: solid #222 1px;
-    height: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5px 0 0 10px;
+    border: solid #222 1px;
+    height: 40px;
+    text-align: start;
+    padding: 20px 0 0 20px;
 }
 .tableHours{
-    border-top: solid #222 1px;
-    border-left: solid #222 1px;
+    border: solid #222 1px;
+    text-align: start;
+    padding: 20px 0 0 20px;
 }
