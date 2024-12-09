@@ -5,6 +5,10 @@ html,body{
     font-family: Open-Sans, sans-serif;
 }
 
+.contentWebsite{
+    width: 100%;
+    margin: 0 auto;
+}
 .container{
     background-image: url("/final-project/images/logo.png"); 
     background-repeat: no-repeat;
@@ -105,8 +109,8 @@ h4 {
 }
 
 #about{
-    background-color: wheat;
     display: flex;
+    background-color: wheat;
     flex-direction: column;
     padding: 15px;
 }
@@ -125,19 +129,12 @@ h4 {
     padding: 10px 0 10px 20px;
 }
 
-.servicesContent .boxDigitalTransformation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: wheat;
-    max-width: 95%;
-}
 .boxDigitalTransformation{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: wheat;
-    width: 95%;
+    width: 100%;
     margin-bottom: 10px;
 }
 .boxDigitalTransformation h3, .boxDigitalTransformation p{
@@ -151,7 +148,10 @@ h4 {
 .boxMarketing{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: wheat;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .boxMarketing h3, .boxMarketing p{
     margin: 15px 0 0 15px;
@@ -164,7 +164,10 @@ h4 {
 .boxVideoProd{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: wheat;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .boxVideoProd h3, .boxVideoProd p{
     margin: 15px 0 0 15px;
@@ -177,7 +180,10 @@ h4 {
 .boxWebDev{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: wheat;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .boxWebDev h3, .boxWebDev p{
     margin: 15px 0 0 15px;
@@ -190,7 +196,10 @@ h4 {
 .boxPrint{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: wheat;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .boxPrint h3, .boxPrint p{
     margin: 15px 0 0 15px;
@@ -237,4 +246,55 @@ h4 {
     border: #c78c06 2px solid;
     margin-left: 15px;
     margin-bottom: 10px;
+}
+
+#team{
+    margin: 0 auto;
+    padding: 10px 0 10px 20px;
+}
+#team h2{ 
+    padding: 30px 0 10px 10px;
+}
+
+.aboutJohn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: wheat;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 0 10px 0 ;
+}
+
+.aboutJohn h3, .aboutJohn h4, .aboutJohn p{
+    margin: 15px 0 0 15px;
+}
+.aboutJohn h4{
+    padding-bottom: 10px;
+    border-bottom: orange 2px solid;
+}
+.aboutJohn p{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.aboutBob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: wheat;
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 0
+}
+.aboutBob h3, .aboutJohn h4, .aboutJohn p{
+    margin: 15px 0 0 15px;
+}
+.aboutBob h4{
+    padding-bottom: 10px;
+    border-bottom: orange 2px solid;
+}
+.aboutBob p{
+    padding-top: 0;
+    padding-bottom: 20px;
 }
