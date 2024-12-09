@@ -1,11 +1,7 @@
-html {
-    width: 1200px;
+html,body{
+    max-width: 1200px;
     margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-
-body{
+    height: 100%;
     font-family: Open-Sans, sans-serif;
 }
 
@@ -121,13 +117,28 @@ h4 {
     padding-bottom: 0;
 }
 
+#services{ 
+    width: 95%;
+    margin: 0 auto;
+}
 #services h2{
-    padding: 50px 0 15px 25px;
+    padding: 10px 0 10px 20px;
+}
+
+.servicesContent .boxDigitalTransformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: wheat;
+    max-width: 95%;
 }
 .boxDigitalTransformation{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: wheat;
+    width: 95%;
+    margin-bottom: 10px;
 }
 .boxDigitalTransformation h3, .boxDigitalTransformation p{
     margin: 15px 0 0 15px;
