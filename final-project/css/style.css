@@ -440,6 +440,30 @@ footer{
         background-color: #c78c06;    
     }
 
+    #home{
+        background-image: url("/final-project/images/main-banner.jpg");
+        height: 100vh;
+        background-size: cover;
+        width: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #home h1, #home p, #home .buttonSecHome{
+        background: rgb(34, 34, 34, 0.8);
+        padding: 10px;
+        margin: 0 40px;
+    }
+    #home h1{
+        font-size: 3.375em;
+        font-weight: bolder;
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 60px;
+    }
+    
     
     
 }
