@@ -352,3 +352,24 @@ form{
     text-align: start;
     padding: 20px 0 0 20px;
 }
+.location{
+    width: 95%;
+    margin: 0 auto;
+}
+.location iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #222;
+    color: #c78c06;
+    height: 80px;
+    width: inherit;
+    padding: 20px;
+}
+
+footer .unsplashLink a:link, a:visited, a:hover, a:active{
+    color: #c78c06;
+    text-decoration: underline;
+}
