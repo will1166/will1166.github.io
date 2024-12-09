@@ -51,7 +51,8 @@ li{
 
 .searchBar{
     text-align: center;
-    padding-bottom: 10px;
+    background-color: #222;
+    padding-bottom: 5px;
 }
 .searchBar label{
     position: absolute;
