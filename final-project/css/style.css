@@ -324,3 +324,33 @@ form{
     color: #c78c06;
     margin-top: 10px;
 }
+
+.hoursOperation table{
+    width: 95%;
+    margin: 0 auto;
+}
+.tablehours{
+    background-color: wheat;
+    height: 30px;
+    border: solid #222 1px;
+    text-align: center; 
+}
+tbody {
+    height: 30px;
+    border: solid #222 1px;
+}
+.tableTitlehours{
+    border-left: solid #222 1px;
+}
+.tableDays{
+    border-top: solid #222 1px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0 0 10px;
+}
+.tableHours{
+    border-top: solid #222 1px;
+    border-left: solid #222 1px;
+}
