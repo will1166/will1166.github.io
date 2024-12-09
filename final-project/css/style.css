@@ -19,26 +19,31 @@ html,body{
     padding-top: 160px;
 }
 
-a:link, a:visited{
+.container ul li a:link, 
+.container ul li a:visited, 
+.container ul li a:hover,
+.container ul li a:active{
     text-decoration: none;
-    color: black;
+    color: #222;
 }
 
 .otherList{
     background-color: #222;
 }
-.otherList li a{
+.otherList li a:link,
+.otherList li a:visited,
+.otherList li a:hover,
+.otherList li a:active{
     color: #c78c06;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
-
 li{
     list-style: none;
     text-align: center;
 }
-
 .container li{
     text-decoration: none;
 }
@@ -369,7 +374,7 @@ footer{
     padding: 20px;
 }
 
-footer .unsplashLink a:link, a:visited, a:hover, a:active{
+.unsplashLink a:link, .unsplashLink a:visited, .unsplashLink a:hover, .unsplashLink a:active{
     color: #c78c06;
     text-decoration: underline;
 }
