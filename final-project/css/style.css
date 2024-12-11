@@ -9,29 +9,8 @@ html,body{
     width: 100%;
     margin: 0 auto;
 }
-.container{
-    background-repeat: no-repeat;
-    background-color: #c78c06;
-    /* box-sizing: border-box; */
-    /* padding-bottom: 20px; */
-}
-nav{
-    display: flex;
-    flex-direction: column;
-    /* padding-top: 160px; */
-}
 
-.container ul li a:link, 
-.container ul li a:visited, 
-.container ul li a:hover,
-.container ul li a:active{
-    text-decoration: none;
-    color: #222;
-}
 
-.otherList{
-    background-color: #222;
-}
 nav ul li a:link,
 nav ul li li a:visited,
 nav ul li li a:hover,
@@ -40,7 +19,7 @@ nav ul li li a:active{
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
 }
 li{
     list-style: none;
@@ -431,25 +410,6 @@ footer{
 
     header{
         width: 100%;
-    }
-
-   nav, .container, .otherList, .searchBar{
-        /* background-image: url(/final-project/images/logo.png); */
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: space-between;
-        background-size: 100px;
-        background-position: 100px; 
-    }
-    .container, .otherList, .searchBar {
-        background-image: none;
-    }
-    .container ul li{
-        padding: 10px;
-        background-color: red;
     }
 
     #home{
