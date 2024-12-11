@@ -507,7 +507,7 @@ footer{
         grid-template-rows: auto auto;
         gap: 10px;
         justify-content: center;
-        align-items: stretch;
+        /* align-items: stretch; */
         margin: 0 auto;
     }
     #services .boxDigitalTransformation{
@@ -522,13 +522,25 @@ footer{
         grid-column: 1 / 2;
         grid-row: 2;
     }
+    /* #services .boxVideoProd img{
+        height: 50%;
+    } */
     }
     #services .boxWebDev{
         grid-column: 2 / 4;
         grid-row: 2;
     }
+    #services .boxWebDev img{
+        height: 50%;
+    }
     #services .boxPrint{
         grid-column: 4 / 5;
         grid-row: 2;
-    } 
-}
+    }
+    /* #services .boxPrint img{
+        height: 50%;
+    } */
+
+    .vision{
+
+    }
