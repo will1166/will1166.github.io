@@ -565,6 +565,9 @@ footer{
         height: auto;
         width: 98%;
     }
+    .aboutJohn .johnDetails{
+        /* padding: 0; */
+    }
     .aboutBob{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
