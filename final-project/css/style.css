@@ -498,4 +498,9 @@ footer{
     #about .aboutContent{
         grid-column: 2;
     }
+
+    #services > *:not(h2){
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
