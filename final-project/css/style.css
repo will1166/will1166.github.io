@@ -23,6 +23,7 @@ li{
     text-align: center;
     color: #c78c06;
     text-decoration: none;
+    padding: 15px;
 }
 li a:link,
 li a:visited, 
@@ -31,6 +32,14 @@ li a:focus{
     text-decoration: none;
     color: #c78c06;
 }
+.homeButton {
+    position: relative;
+    /* top: -50px; */
+}
+.homeButton{ 
+    
+}
+
 
 .searchBar{
     text-align: center;
