@@ -10,11 +10,10 @@ html,body{
     margin: 0 auto;
 }
 .container{
-    background-image: url("/final-project/images/logo.png"); 
     background-repeat: no-repeat;
     background-color: #c78c06;
-    box-sizing: border-box;
-    padding-bottom: 20px;
+    /* box-sizing: border-box; */
+    /* padding-bottom: 20px; */
 }
 nav{
     display: flex;
@@ -435,7 +434,7 @@ footer{
     }
 
    nav, .container, .otherList, .searchBar{
-        background-image: url(/final-project/images/logo.png);
+        /* background-image: url(/final-project/images/logo.png); */
         background-repeat: no-repeat;
         background-size: contain;
         display: flex;
