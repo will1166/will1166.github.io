@@ -550,3 +550,25 @@ footer{
         justify-content: center;
         padding: 0 100px;
     }
+
+    #team .aboutTeam{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 98%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    #team .aboutJohn{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #team .aboutJohn{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #team .aboutBob{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
