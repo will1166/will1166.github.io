@@ -548,7 +548,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 100px;
+        padding: 0 50px;
     }
 
     .aboutTeam{
@@ -559,15 +559,21 @@ footer{
     .aboutJohn{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0;
+        margin: 0 auto;
     }
-    .aboutBob {
+    .aboutJohn img{
+        height: auto;
+        width: 98%;
+    }
+    .aboutBob{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     .aboutBob img{
         grid-column: 2;
+        height: auto;
+        width: 98%;
+        align-items: end;
     }
     .aboutBob .bobDetails{
         grid-column: 1;
