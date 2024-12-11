@@ -428,26 +428,27 @@ footer{
         font-family: Open-Sans, Arial, Helvetica, sans-serif;
     }
 
-    .container, .otherList, .searchBar{
+    header{
+        width: 100%;
+    }
+
+   nav, .container, .otherList, .searchBar{
         background-image: url(/final-project/images/logo.png);
         background-repeat: no-repeat;
         background-size: contain;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        background-color: #222;
+        justify-content: flex-end;
+        align-items: space-between;
+        background-size: 100px;
+        background-position: 100px; 
     }
-    .container{
-        display: inline-block;
-        background-color: white;
-    }
-    .otherList{
-        display: inline-block;
+    .container, .otherList, .searchBar {
         background-image: none;
     }
-    .searchBar{
-        display: inline-block;
-        background-image: none;
+    .container ul li{
+        padding: 10px;
+        background-color: red;
     }
 
     #home{
