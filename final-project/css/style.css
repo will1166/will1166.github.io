@@ -583,5 +583,18 @@ footer{
         grid-row: 1;
     }
 
+    #contact .sendMessage, 
+    #contact .location, 
+    #contact .hoursOperation{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sendMessage h3, 
+    .sendMessage form{
+        grid-column: 1;
+    }
+    .location h3,
+    .location iframe{
+        grid-column: 2;
+    }
 }
-
