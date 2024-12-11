@@ -583,15 +583,21 @@ footer{
         grid-row: 1;
     }
 
-    #contact .sendMessage, 
-    #contact .location, 
-    #contact .hoursOperation{
+    #contact{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         box-sizing: border-box;
         padding: 0;
         margin: 0 auto;
-x   }
+    }
+    #contact h2 {
+        grid-column: 1 / span 2;
+    }
+    .sendMessage,
+    .hoursOperation,
+    .location{
+        box-sizing: border-box;
+    }
     .sendMessage h3, 
     .sendMessage form{
         grid-column: 1;
