@@ -16,8 +16,10 @@ html,body{
     box-sizing: border-box;
     padding-bottom: 20px;
 }
-.container ul{
-    padding-top: 160px;
+nav{
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 160px; */
 }
 
 .container ul li a:link, 
@@ -31,10 +33,10 @@ html,body{
 .otherList{
     background-color: #222;
 }
-.otherList li a:link,
-.otherList li a:visited,
-.otherList li a:hover,
-.otherList li a:active{
+nav ul li a:link,
+nav ul li li a:visited,
+nav ul li li a:hover,
+nav ul li li a:active{
     color: #c78c06;
     text-decoration: none;
     display: flex;
