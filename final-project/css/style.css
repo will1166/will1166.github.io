@@ -588,7 +588,10 @@ footer{
     #contact .hoursOperation{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 auto;
+x    }
     .sendMessage h3, 
     .sendMessage form{
         grid-column: 1;
@@ -596,5 +599,9 @@ footer{
     .location h3,
     .location iframe{
         grid-column: 2;
+    }
+    .hoursOperation h3,
+    .hoursOperation table{
+        grid-column: 1 / span 2;
     }
 }
