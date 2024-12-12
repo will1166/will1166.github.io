@@ -554,7 +554,10 @@ footer{
     .homeButton:hover,
     .homeButton:focus{
         color: white;
-    }   
+    } 
+    .homeButton:active{
+        color: #222;
+    }
 
 
     .searchBar{
