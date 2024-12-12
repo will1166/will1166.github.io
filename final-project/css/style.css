@@ -107,7 +107,7 @@ li a:focus{
     justify-content: center;
 }
 /* add rectangle on the background image with opacity */
-#home h1, #home p, #home .buttonSecWelcome{
+#home h1, #home p, #home .buttonSecHome{
     background: rgb(34, 34, 34, 0.8);
     padding: 10px;
 }
@@ -137,21 +137,16 @@ h4 {
 }
 
 /* style button for this section */
-#home .buttonSecWelcome button{
+#home .buttonSecHome button{
     background-color: #c78c06;
     height: 100px;
     width: 250px;
     font-size: 1.5em;
 }
-#home buttonSecWelcome button:link, 
-#home buttonSecWelcome button:visited{
-    color: #222;
-}
-#home .buttonSecWelcome button:hover, 
-#home .buttonSecWelcome button:focus{
+#home .buttonSecHome button:hover, 
+#home .buttonSecHome button:focus{
     color: white;
 }
-
 
 /* create a flexbox for the about section, adding style */
 #about{
@@ -535,7 +530,7 @@ footer{
 @media screen and (min-width:760px){    
     header{
         display: grid;
-        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: 1fr;
         align-items: center;
         background-color: #222;
@@ -545,7 +540,7 @@ footer{
     .companyLogo{
         background-size: cover;
         background-color: #222;
-        grid-column: 1;
+        grid-column: 2;
         padding: 20px;
     }
     .homeButton{
@@ -569,12 +564,12 @@ footer{
     }
 
     .container{
+        display: flex;
         width: 100%;
-        max-width: 100%;
     }
     .searchBar{
         width: 80%;
-        grid-column: 3;
+        grid-column: 6 / 8;
     }
     nav ul{
         display: flex;
@@ -600,7 +595,7 @@ footer{
         background-position: center;
     }
     /* adapt the banner to desktop */
-    #home h1, #home p, #home .buttonSecWelcome{
+    #home h1, #home p, #home .buttonSecHome{
         background: rgb(34, 34, 34, 0.8);
         padding: 10px;
         margin: 0 40px;
