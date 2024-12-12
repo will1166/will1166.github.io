@@ -433,6 +433,9 @@ input{
 .buttonSend{
     background-color: #222;
     color: #c78c06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     width: 70px;
     height: 40px;
