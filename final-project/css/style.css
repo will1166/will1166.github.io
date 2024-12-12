@@ -543,22 +543,25 @@ footer{
         grid-column: 2;
         padding: 20px;
     }
+    .homeButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .homeButton:link,
     .homeButton:visited{
-        position: relative;
-        top: -40px;
         color: #222;
         background-color: #c78c06;
         text-decoration: none;
     }
-
     .homeButton:hover,
     .homeButton:focus{
         color: white;
     } 
-    .homeButton:active{
+    /* .homeButton:active{
         color: #222;
-    }
+        text-decoration: none;
+    } */
 
 
     .searchBar{
