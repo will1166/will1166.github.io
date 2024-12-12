@@ -488,7 +488,7 @@ input{
     margin: 0 auto;
 }
 .location iframe{
-    width: 700px;
+    width: 400px;
     display: flex;
     margin: 20px;
     margin-top: 0;
