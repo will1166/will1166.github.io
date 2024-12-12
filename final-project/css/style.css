@@ -581,15 +581,16 @@ footer{
         grid-column: 2;
 
     }
-
+    /* Create a grid to make the services boxes fit in one bigger box */
     #services .boxServices{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 2fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns:  2fr 1fr 1fr 2fr;
+        grid-template-rows: repeat(2, auto);
         gap: 10px;
         justify-content: center;
+        align-items: center;
         margin: 0 auto;
-        width: 95%;
+        min-width: 900px;
     }
     #services .boxDigitalTransformation{
         grid-column: 1 / 3;
@@ -599,61 +600,61 @@ footer{
         grid-column: 3 / 5;
         grid-row: 1;
     }
-    
+    #services .boxMarketing{
+        grid-column: 3 / 5;
+        grid-row: 1;
+    }
     #services .boxVideoProd{
         grid-column: 1 / 2;
         grid-row: 2;
+        height: 500px;
     }
     #services .boxWebDev{
         grid-column: 2 / 4;
         grid-row: 2;
+        height: 500px;
     }
     #services .boxPrint{
         grid-column: 4 / 5;
         grid-row: 2;
+        height: 500px;
+
     }
 
-
+    /* Create a box that fits the vision from each side of the page */
     .vision{
         background-image: url(/final-project/images/vision.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 50px;
+        padding: 0 40px;
     }
-
+    /* Create a grid to make the pictures and bios more dynamic */
+    #team h2{
+        padding: 20px 0 10px 10;
+    }
     .aboutTeam{
-        box-sizing: border-box;
         margin: 0 auto;
         width: 98%;
     }
     .aboutJohn{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1;
     }
     .aboutJohn img{
-        height: auto;
-        width: 98%;
+        width: 100%;
     }
-    .aboutJohn .johnDetails{
-        /* padding: 0; */
-    }
+
     .aboutBob{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
+    /* invert the order for bob info */
     .aboutBob img{
-        grid-column: 2;
-        height: auto;
-        width: 98%;
-        align-items: end;
-    }
-    .aboutBob .bobDetails{
-        grid-column: 1;
-        grid-row: 1;
+        width: 100%;
+        order: 1; 
     }
 
     #contact .contentContact{
@@ -664,6 +665,7 @@ footer{
         padding: 0;
         margin: 0 auto;
     }
+
     .contentContact .sendMessage{
         grid-column: 1;
         grid-row: 1;
