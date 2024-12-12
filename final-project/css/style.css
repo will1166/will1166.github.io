@@ -150,7 +150,7 @@ h4 {
 #about{
     display: flex;
     flex-direction: column;
-    background-color: rgb(199, 140, 6, 0.4);
+    background-color: #ffe6ac;
     padding: 15px;
 }
 #about h2, #about p{
@@ -178,7 +178,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -208,7 +208,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -241,7 +241,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -258,7 +258,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -275,7 +275,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -342,7 +342,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -364,7 +364,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(42, 94%, 40%, 0.4);
+    background-color: #ffe6ac;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -444,7 +444,7 @@ input{
     padding-bottom: 20px;
 }
 .tableTitles{
-    background-color: hsl(42, 94%, 40%, 0.3);
+    background-color: #ffe6ac;
     height: 30px;
 }
 .tableTitleDays, .tableTitleHours{
