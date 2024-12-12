@@ -436,7 +436,6 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10px; */
     width: 70px;
     height: 40px;
     font-size: 1.5em;
