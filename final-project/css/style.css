@@ -484,14 +484,14 @@ input{
 }
  /* make the subsection fit the rest of the section */
 .location{
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
+    align-items: center;
 }
 .location iframe{
-    width: 400px;
-    display: flex;
-    margin: 20px;
-    margin-top: 0;
+    position: relative;
+    height: 600px;
+    width: 100%;
 }
 /* add style to the footer */
 footer{
