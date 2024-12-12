@@ -558,10 +558,10 @@ footer{
     .homeButton:focus{
         color: white;
     } 
-    /* .homeButton:active{
+    .homeButton:active{
         color: #222;
         text-decoration: none;
-    } */
+    }
 
 
     .searchBar{
