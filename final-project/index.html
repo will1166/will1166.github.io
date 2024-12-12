@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- add google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -15,6 +16,7 @@
         <div class="companyLogo">
             <img src="./images/logo.png" alt="Three Star Media">
         </div>
+        <!-- create div for the nav -->
         <div class="container">
             <nav>
                 <ul>
@@ -26,6 +28,7 @@
                 </ul>
             </nav>
         </div>
+        <!-- div for the search bar -->
         <div class="searchBar">
             <form>
                 <label for="search">Search</label>
@@ -35,11 +38,11 @@
         </div>
     </header>
         <main>
-            <!-- First section with the biggest heading -->
+            <!-- first section with the biggest heading -->
             <section id="home">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi at laboriosam nulla vitae! Illum quasi maiores fugiat libero ullam unde et deserunt vel consequatur, cumque velit hic blanditiis nulla!</p>
-                <!-- Create div to develop layout for the button on CSS -->
+                <!-- create div to develop layout for the button on CSS -->
                 <div class="buttonSecHome">
                     <button>Connect with us <i class="fa-solid fa-caret-right"></i></button>
                 </div>
@@ -60,7 +63,7 @@
                         <img src="./images/digital.jpg" alt="Digital Transformation service">
                         <h3>Digital Transformation</h3><br>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet commodi a in quo, perspiciatis, optio iusto consequatur et eos ipsam iure quaerat culpa maxime eligendi dignissimos velit ab beatae! Laborum!</p><br>
-                        <!-- Create  class for the buttons for services -->
+                        <!-- Create  class for the buttons for services that share the same style -->
                         <button class="buttonSecServices">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
                     </div>
                 </div>
@@ -91,16 +94,19 @@
                     </div>
             </section>
             <section>
-                      <!-- Create div for Vision box -->
+                      <!-- create div for Vision box -->
                     <div class="vision">
                         <h3>Our Vision</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dolores quo eum, nam consequuntur veniam est asperiores repudiandae cum aliquam quasi, enim impedit ipsum et reiciendis vitae. Quisquam, architecto illum?</p><br>
+                        <!-- create a new button -->
                         <button>Learn More <i class="fa-solid fa-caret-right"></i></button>
                     </div>
             </section>
             <section id="team">
                 <h2>Our Team</h2>
+                <!-- container for the bios and pics of the team -->
                     <div class="aboutTeam">
+                        <!-- individual profiles -->
                         <div class="aboutJohn">
                             <img src="./images/john.jpg" alt="John Doe">
                             <div class="johnDetails">
@@ -109,6 +115,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestias similique quasi minima asperiores saepe, recusandae, rerum omnis cumque itaque dolorem nostrum natus sit nulla corrupti amet earum quis voluptatem.</p>
                             </div>
                         </div>
+                        <!-- second profile -->
                         <div class="aboutBob">
                             <img src="./images/bob.jpg" alt="Bob Rite">
                             <div class="bobDetails">
@@ -122,9 +129,10 @@
                 <section id="contact">
                     <h2>Contact us</h2>
                     <div class="contentContact">
+                        <!-- create div for the css in the desktop -->
                         <div class="sendMessage">
                             <h3>Send us a message</h3>
-                        <!-- Form for contacting -->
+                        <!-- form for contacting -->
                             <form>
                                 <label for="fullname">Full Name</label><br>
                                 <input type="text" id="fullname" name="fullname" required><br>
@@ -137,12 +145,12 @@
                         </div>
                         <div class="hoursOperation">
                             <h3>Hours of operation</h3>
-                            <!-- Table for hours of operation -->
+                            <!-- table for hours of operation -->
                             <table>
                                 <thead>
-                                    <!-- Add class to apply overall CSS features on both columns on the first row -->
+                                    <!-- add class to apply overall CSS features on both columns on the first row -->
                                     <tr class="tableTitles">
-                                        <!-- Add classes to apply each CSS padding for the first row -->
+                                        <!-- add classes to apply each CSS padding for the first row -->
                                         <th class="tableTitleDays">Days</th>
                                         <th class="tableTitleHours">Hours</th>
                                     </tr>    
@@ -161,7 +169,7 @@
                         </div>
                         <div class="location">
                         <h3>Location</h3>
-                            <!-- Embed map -->
+                            <!-- embed map -->
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.681812634582!2d-75.75494000000002!3d45.350418!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1733709761103!5m2!1sen!2sca" width="1140" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>        
                 </div>
@@ -169,6 +177,7 @@
         </main>
         <footer>
             <p class="copyrightInfo">&copy;Copyright Three Star Media, 2024</p><br>
+            <!-- insert the URL for the unsplash -->
             <p class="unsplashLink">All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
         </footer>
         <script src="https://kit.fontawesome.com/8925307113.js" crossorigin="anonymous"></script>    
