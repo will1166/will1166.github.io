@@ -484,11 +484,14 @@ input{
 }
  /* make the subsection fit the rest of the section */
 .location iframe{
-    width: 95%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ iframe{
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
     padding-bottom: 20px;
 } 
 
