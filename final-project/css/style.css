@@ -486,10 +486,12 @@ input{
     padding: 20px 0 0 20px;
 }
  /* make the subsection fit the rest of the section */
-.location{
+
+ .location{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 }
 iframe{
