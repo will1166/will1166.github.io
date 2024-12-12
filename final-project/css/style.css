@@ -483,17 +483,15 @@ input{
     padding: 20px 0 0 20px;
 }
  /* make the subsection fit the rest of the section */
-.location{
+.location iframe{
     width: 95%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-.location iframe{
-    position: relative;
-    height: 600px;
-    width: 100%;
-}
+    padding-bottom: 20px;
+} 
+
 /* add style to the footer */
 footer{
     background-color: #222;
