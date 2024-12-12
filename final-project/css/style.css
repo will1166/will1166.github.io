@@ -93,7 +93,7 @@ li a:focus{
     color: white;
 }
 
-
+/* insert background image and prepare it to add some info */
 #home{
     background-image: url("/final-project/images/main-banner.jpg");
     height: 100vh;
@@ -105,10 +105,12 @@ li a:focus{
     flex-direction: column;
     justify-content: center;
 }
+/* add rectangle on the background image with opacity */
 #home h1, #home p, #home .buttonSecHome{
     background: rgb(34, 34, 34, 0.8);
     padding: 10px;
 }
+/* change the colours and sizes for header and paragraph */
 #home h1{
     font-size: 3.375em;
     font-weight: bolder;
@@ -119,12 +121,7 @@ li a:focus{
 #home p{
     color: white;
 }
-#home .buttonSecHome button{
-    background-color: #c78c06;
-    height: 100px;
-    width: 250px;
-    font-size: 1.5em;
-}
+/* establish the size for the headers on the webpage */
 h2{
     font-size: 2.25em;
     font-weight: bold;
@@ -138,6 +135,18 @@ h4 {
     font-weight: bold;
 }
 
+/* style button for this section */
+#home .buttonSecHome button{
+    background-color: #c78c06;
+    height: 100px;
+    width: 250px;
+    font-size: 1.5em;
+}
+#home .buttonSecHome button:hover{
+    color: white;
+}
+
+/*  */
 #about{
     display: flex;
     flex-direction: column;
