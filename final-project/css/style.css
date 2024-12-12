@@ -506,19 +506,6 @@ footer{
 }
 
 @media screen and (min-width:760px){
-    *{
-        box-sizing: border-box;
-    }
-    body{
-        margin: 0 auto;
-        height: 100%;
-        font-family: Open-Sans, Arial, Helvetica, sans-serif;
-    }
-
-    header{
-        width: 100%;
-    }
-
     #home{
         background-image: url("/final-project/images/main-banner.jpg");
         height: 100vh;
@@ -530,6 +517,7 @@ footer{
         flex-direction: column;
         justify-content: center;
     }
+
     #home h1, #home p, #home .buttonSecHome{
         background: rgb(34, 34, 34, 0.8);
         padding: 10px;
