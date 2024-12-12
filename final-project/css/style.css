@@ -506,6 +506,20 @@ footer{
 }
 
 @media screen and (min-width:760px){
+    header{
+        height: 50px;
+        display: grid;
+        grid-template-columns: repeat (5, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .contentWebsite .companyLogo{
+        background-color: #222;
+        background-size: contain;
+    }
+    
+    .homeButton li{
+        background-color: blue;
+    }
     #home{
         background-image: url("/final-project/images/main-banner.jpg");
         height: 100vh;
@@ -513,9 +527,6 @@ footer{
         width: auto;
         background-repeat: no-repeat;
         background-position: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     #home h1, #home p, #home .buttonSecHome{
