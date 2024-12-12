@@ -507,19 +507,39 @@ footer{
 
 @media screen and (min-width:760px){
     header{
-        height: 50px;
         display: grid;
-        grid-template-columns: repeat (5, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: 1fr;
-    }
-    .contentWebsite .companyLogo{
+        align-items: center;
         background-color: #222;
-        background-size: contain;
+        height: 150px;
     }
-    
-    .homeButton li{
-        background-color: blue;
+    .companyLogo{
+        background-size: cover;
+        background-color: #222;
+        grid-column: 2;
+        padding: 20px;
     }
+
+    .searchBar{
+        width: 100px;
+        grid-column: 6 / 8;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin-right: 50px;
+        font-size: 1.2rem;
+    }
+
     #home{
         background-image: url("/final-project/images/main-banner.jpg");
         height: 100vh;
@@ -528,7 +548,7 @@ footer{
         background-repeat: no-repeat;
         background-position: center;
     }
-
+    /* adapt the banner to desktop */
     #home h1, #home p, #home .buttonSecHome{
         background: rgb(34, 34, 34, 0.8);
         padding: 10px;
@@ -541,21 +561,25 @@ footer{
         padding-bottom: 20px;
         padding-top: 60px;
     }
-    
+    /* fit the about us page in a box with padding with the option to scroll */
     #about{
-        box-sizing: border-box;
-        max-width: 100%;
+        width: inherit;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-right: 150px;
-        padding-left: 150px;
+        overflow: scroll;
+        padding-right: 80px;
+        padding-left: 80px;
+        height: 300px;
     }
-    #about img {
+    #about img{
         grid-column: 1;
-        width: 100%;
+        width: 500px;
+        height: 200px;
+        height: auto;
     }
     #about .aboutContent{
         grid-column: 2;
+
     }
 
     #services .boxServices{
