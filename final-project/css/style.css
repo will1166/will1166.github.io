@@ -107,7 +107,7 @@ li a:focus{
     justify-content: center;
 }
 /* add rectangle on the background image with opacity */
-#home h1, #home p, #home .buttonSecHome{
+#home h1, #home p, #home .buttonSecWelcome{
     background: rgb(34, 34, 34, 0.8);
     padding: 10px;
 }
@@ -137,14 +137,14 @@ h4 {
 }
 
 /* style button for this section */
-#home .buttonSecHome button{
+#home .buttonSecWelcome button{
     background-color: #c78c06;
     height: 100px;
     width: 250px;
     font-size: 1.5em;
 }
-#home .buttonSecHome button:hover, 
-#home .buttonSecHome button:focus{
+#home .buttonSecWelcome button:hover, 
+#home .buttonSecWelcome button:focus{
     color: white;
 }
 
@@ -595,7 +595,7 @@ footer{
         background-position: center;
     }
     /* adapt the banner to desktop */
-    #home h1, #home p, #home .buttonSecHome{
+    #home h1, #home p, #home .buttonSecWelcome{
         background: rgb(34, 34, 34, 0.8);
         padding: 10px;
         margin: 0 40px;
