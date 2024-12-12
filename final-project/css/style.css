@@ -34,18 +34,18 @@ li a:focus{
     text-decoration: none;
     color: #c78c06;
     position: relative;
-    top: -15px;
-
+    top: -50px;
+    display: inline-block;
+    padding: 20px;
 }
 .homeButton a:link,
 .homeButton a:visited, 
 .homeButton a:hover,
 .homeButton a:focus{
     position: relative;
-    top: -30px;
+    top: -50px;
     color: #222;
 }
-
 
 
 .searchBar{
