@@ -1,73 +1,98 @@
+/* add border-box to all the elements */
 * {
     box-sizing: border-box;
 }
 
+/* establish the maximum width, margin, height and font for the whole page */
 body{
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 0 auto;
     height: 100%;
     font-family: Open-Sans, Arial, Helvetica, sans-serif;
 }
 
-.contentWebsite{
-    width: 100%;
-    margin: 0 auto;
-}
-
+/* add colour and height to the logo background */
 .companyLogo{
     background-color: #c78c06;
     height: 150px;
 }
+/* add colour to the nav background */
 .container{
     background-color: #222;
 } 
-li{
+li a:link,
+li a:visited{
     list-style: none;
     text-align: center;
-    color: #c78c06;
+    color: white;
     text-decoration: none;
 }
-li a:link,
-li a:visited, 
-li a:hover,
-li a:focus{
-    text-decoration: none;
-    color: #c78c06;
-    position: relative;
-    top: -50px;
-    display: inline-block;
-    padding: 20px;
-}
+/* make the home button inside the background */
 .homeButton a:link,
-.homeButton a:visited, 
-.homeButton a:hover,
-.homeButton a:focus{
+.homeButton a:visited{
     position: relative;
-    top: -50px;
+    top: -40px;
     color: #222;
 }
-
-
-.searchBar{
-    text-align: center;
-    background-color: #222;
-    padding-bottom: 5px;
+/* make the home button change colour when hovering or focusing */
+.homeButton a:hover,
+.homeButton a:focus{
+    color: white;
 }
+/* remove decoration and fix position for the rest of the nav */
+li a:link,
+li a:visited{
+    text-decoration: none;
+    height: 30px;
+    color: #c78c06;
+    position: relative;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 0 20px 0;
+}
+/* make the other buttons change colour when hovering or focusing */
+li a:hover,
+li a:focus{
+    color: white;
+}
+
+/* add colour and padding to the searchbar */
+.searchBar {
+    background-color: #222;
+    padding-bottom: 10px;
+} 
+/* Hide the label */
 .searchBar label{
     position: absolute;
     top: -500px;
 }
+/* put the searchbar in flex to make it align and not wrap */
+.searchBar form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* define size for the searchbar input */
 .searchBar input{
     width: 500px;
     height: 40px;
 }
+/* add styling to the magnifying glass button */
 .searchBar button{
     height: 40px;
-    width: 100px;
+    width: 40px;
     color: #c78c06;
     background-color: #222;
     border: #c78c06 solid 2px;
 }
+/* make the search button the same colour as the other when hovered or focused */
+.searchBar button:hover, 
+.searchBar button:focus{
+    color: white;
+}
+
 
 #home{
     background-image: url("/final-project/images/main-banner.jpg");
@@ -481,15 +506,11 @@ footer{
     #services .boxServices{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 2fr;
-        /* grid-template-rows: auto auto; */
+        grid-template-rows: repeat(2, 1fr);
         gap: 10px;
         justify-content: center;
-        align-items: stretch;
         margin: 0 auto;
-        box-sizing: border-box;
         width: 95%;
-        position: relative;
-        overflow: hidden;
     }
     #services .boxDigitalTransformation{
         grid-column: 1 / 3;
