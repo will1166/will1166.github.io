@@ -146,21 +146,26 @@ h4 {
     color: white;
 }
 
-/*  */
+/* create a flexbox for the about section, adding style */
 #about{
     display: flex;
     flex-direction: column;
-    background-color: wheat;
+    background-color: rgb(199, 140, 6, 0.4);
     padding: 15px;
 }
 #about h2, #about p{
     padding: 10px 0 10px 10px;
 }
+#about h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 #about p{
     padding-bottom: 0;
 }
-
-#services{ 
+/* align the section with the rest of the page */
+#services,
+#service h2{ 
     width: 95%;
     margin: 0 auto;
     padding: 10px;
@@ -168,19 +173,28 @@ h4 {
 #services h2{
     padding: 30px 0 20px 0;
 }
-
+/* create flexboxes for each service */
 .boxDigitalTransformation{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: wheat;
+    background-color: hsl(42, 94%, 40%, 0.4);
     width: 100%;
     margin-bottom: 10px;
 }
+/* arrange the elements inside each flexbox */
 .boxDigitalTransformation h3, .boxDigitalTransformation p{
     margin: 15px 0 0 15px;
 }
-.boxDigitalTransformation button {
+/* create a style that fits all the services buttons */
+.buttonSecServices{
+    background-color: #222;
+    color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 1.5em;
+}
+.boxDigitalTransformation button{
     margin-left: 15px;
     margin-bottom: 10px;
 }
@@ -189,7 +203,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: wheat;
+    background-color: hsl(42, 94%, 40%, 0.4);
     width: 100%;
     margin-bottom: 10px;
 }
@@ -199,16 +213,26 @@ h4 {
 .boxMarketing img{
     width: 100%;
 }
-.boxMarketing button {
+.boxMarketing button{
     margin-left: 15px;
     margin-bottom: 10px;
 }
+/* create button with smaller font for marketing */
+.buttonSecMarketing{
+    background-color: #222;
+    color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 1.4em;
+}
+
+
 
 .boxVideoProd{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: wheat;
+    background-color: hsl(42, 94%, 40%, 0.4);
     width: 100%;
     margin-bottom: 10px;
 }
@@ -224,7 +248,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: wheat;
+    background-color: hsl(42, 94%, 40%, 0.4);
     width: 100%;
     margin-bottom: 10px;
 }
@@ -250,22 +274,6 @@ h4 {
 .boxPrint button {
     margin-left: 15px;
     margin-bottom: 10px;
-}
-
-.buttonSecServices {
-    background-color: #222;
-    color: white;
-    height: 100px;
-    width: 200px;
-    font-size: 1.5em;
-}
-
-.buttonSecMarketing{
-    background-color: #222;
-    color: white;
-    height: 100px;
-    width: 200px;
-    font-size: 1.4em;
 }
 
 .vision {
