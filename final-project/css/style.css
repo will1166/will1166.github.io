@@ -409,7 +409,7 @@ form{
 }
 /* add style to the boxes of the form */
 input{ 
-    border-radius: grey 1px;
+    border-radius: 2px;
     padding: 4px;
     margin: 5px 0;
 }
@@ -424,7 +424,7 @@ input{
 #message{
     width: 100%;
     height: 150px;
-    border-radius: grey 1px;
+    border-radius: 2px;
     padding: 4px;
     margin: 5px 0;
 }
@@ -645,7 +645,7 @@ footer{
     }
     /* Create a grid to make the pictures and bios more dynamic */
     #team h2{
-        padding: 20px 0 10px 10;
+        padding: 20px 0 10px 10px;
     }
     .aboutTeam * {
         margin: 0 auto;
@@ -692,12 +692,11 @@ footer{
     .contentContact .location iframe{
         height: 80%;
     }
-    }
+    
     /* align the table with the rest of the grid */
     .contentContact .hoursOperation{
         grid-column: 1 / span 2;
         padding-left: 20px;
         padding-right: 10px;
     }
-
 }
